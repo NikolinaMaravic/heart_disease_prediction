@@ -25,7 +25,7 @@ In the initial data preparation phase, the following tasks were performed:
 EDA was performed to explore the dataset and summarize its main characteristics. Performed EDA steps are:
 -	univariate analysis – distribution for "continuous" features in both classes was visualized with KDE, whereas for discrete features bar plot was used to show heart disease frequency
 -	bivariate analysis – pairwise feature relationships and correlation matrix were visualized in order to reveal highly correlated features
--	normalization – the range of features was varying a lot, so it was standardized with (0, 1) normalization.
+-	normalization – the ranges of features were varying a lot, so they were standardized with (0, 1) normalization.
   
 A few observations obtained through EDA:
 -	classes are nearly balanced (138 healthy patients, 165 heart disease)
