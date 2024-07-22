@@ -30,7 +30,7 @@ EDA was performed to explore the dataset and summarize its main characteristics.
 A few observations obtained through EDA:
 -	classes are nearly balanced (138 healthy patients, 165 heart disease)
 -	chol and fbs features have the lowest correlation with target variable
-- features that are highly dependant with target variable are cp, thalach, exang, oldpeak, slope, ca.
+- features that are highly dependant with target variable are cp, thalach, exang, oldpeak, slope, and ca.
 
 ## ML Models
 ML models implemented to predict the presence of heart disease based on normalized clinical parameters are: Logistic Regression, k-Nearest Neighbors, Random Forest, and AdaBoost Classifier. First, baseline classification scores were calculated. In order to improve models performance hyperparameter tuning was done using Randomized Search Cross Validation for a wide range of hyperparameters, and then exhaustive search was performed via Grid Search Cross Validation. The models were retrained with the optimal hyperparameteres and tested on unseen data. 
